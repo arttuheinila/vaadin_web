@@ -1,4 +1,4 @@
-# Campus SPA - työraportti
+# Työraportti
 
 ## Yleiskuvaus
 
