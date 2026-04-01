@@ -1,0 +1,26 @@
+.advanced-search-view .search-panel vaadin-text-field::part(input-field),
+.advanced-search-view .search-panel vaadin-combo-box::part(input-field),
+.advanced-search-view .search-panel vaadin-date-picker::part(input-field) {
+  background: linear-gradient(180deg, rgba(250, 247, 239, 0.98), rgba(237, 246, 244, 0.96));
+  border: 1px solid rgba(197, 157, 91, 0.38);
+  box-shadow: 0 8px 20px rgba(11, 93, 92, 0.08);
+}
+
+.advanced-search-view .search-panel vaadin-button {
+  min-width: 9rem;
+}
+
+.advanced-search-view vaadin-grid::part(header-cell) {
+  background: linear-gradient(135deg, rgba(11, 93, 92, 0.12), rgba(197, 157, 91, 0.18));
+  color: #163036;
+  font-weight: 700;
+}
+
+.advanced-search-view vaadin-grid::part(row):hover {
+  background: rgba(11, 93, 92, 0.05);
+}
+
+.advanced-search-view .search-intro,
+.advanced-search-view .search-panel {
+  border-color: rgba(197, 157, 91, 0.34);
+}
