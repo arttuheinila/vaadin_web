@@ -143,7 +143,7 @@ public class MainLayout extends AppLayout {
     }
 
     private Footer buildFooter() {
-        Span author = new Span("Tekijä: Omistaja");
+        Span author = new Span("Tekijä: Arttu Heinilä");
         Span copyright = new Span("Copyright © 2026 Campus SPA");
         Anchor vaadinLink = new Anchor("https://vaadin.com", "Vaadin");
         vaadinLink.setTarget("_blank");
